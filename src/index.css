@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: lightgrey;
+}
+.planets {
+    color: white;
+    border: 1px solid red;
+    width: 40%;
+    background-color: rgb(65, 71, 68);
+    margin: 10px 10px;
+}
+.planet_container {
+    background-image: url('/jiJu40.jpg');
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    height: 600px;
+}
+ul {
+    list-style-type: none;
+}
+h2 {
+    margin: 30px;
+}
